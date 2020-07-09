@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #232323;
+    text-align: center;
+}
+
+.square{
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 30px;
+}
+
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1{
+    color: white;
+    padding: 20px 0;
+}
+
+#stripe{
+    background: white;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+
+.selected{
+    background-color: steelblue;
+    color: white;
+}
+
+.heading{
+    font-family: 'Fredoka One', cursive;
+    font-size: 4rem;
+}
+
+button{
+    font-family: 'Maven Pro', sans-serif;
+    border: none;
+    background: none;
+    outline: none;
+    text-transform: uppercase;
+    height: 100%;
+    color: steelblue;
+    font-weight: 600;
+    font-size: inherit;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+}
+
+button:hover{
+    color: white;
+    background-color: steelblue;
+}
+
+#message{
+    display: inline-block;
+    width: 20%;
+    font-family: 'Maven Pro', sans-serif;
+    letter-spacing: 1px;
+    font-size: inherit;
+    font-weight: 600;
+    color: steelblue;
+    text-transform: uppercase;
+}
